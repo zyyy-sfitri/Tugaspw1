@@ -1,0 +1,111 @@
+/* Gaya klasik dan elegan dengan nuansa seni */
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f8f3ef;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #3a2e24;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navbar a:hover,
+.navbar .active {
+    text-decoration: underline;
+    color: burlywood;
+}
+
+header {
+    background-color: #4b3c2b;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+}
+
+.about {
+    padding: 3rem 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.image {
+    flex: 1 1 40%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+.content {
+    flex: 1 1 55%;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #4b3c2b;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #4b3c2b;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}

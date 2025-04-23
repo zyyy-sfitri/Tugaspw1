@@ -1,0 +1,204 @@
+/* Tambahan styling untuk nuansa klasik dan elegan */
+body {
+    font-family: 'Georgia', serif; /* Ganti font jadi lebih klasik */
+    background-image: url(batik.png);
+    color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background-color: rgba (0,0,0,0.7);
+  color: #000000;
+  font-size: 30px;
+  font-family: Georgia, serif;
+}
+
+header{
+  color: black;
+}
+/* Styling section kontak agar elegan */
+.kontak {
+    background-color: #fff8f0; /* Warna lembut, kesan hangat */
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Heading bagian kontak */
+.kontak .heading {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #4b3c2b;
+    margin-bottom: 2rem;
+    font-family: 'Georgia', serif;
+}
+
+/* Baris (row) form */
+.kontak .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    background-image: url(batik1.png);
+}
+
+/* Form area */
+.kontak .row form {
+    flex: 1 1 100%;
+    padding: 2.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e0d9ce;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Input dan textarea */
+.kontak .row form .box {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #d1c7b7;
+    border-radius: 6px;
+    background-color: #fafafa;
+    transition: border-color 0.3s;
+}
+
+/* Efek saat fokus input */
+.kontak .row form .box:focus {
+    border-color: #a67c52;
+    outline: none;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .nav-menu {
+    margin: 0 auto;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: 0.3s ease;
+  }
+  
+  .nav-menu ul li a:hover {
+    border-radius: 5px;
+    background-color: grey;
+    color: black;
+  }
+  
+
+/* Textarea tetap nyaman diketik */
+.kontak .row form textarea.box {
+    height: 100px;
+    resize: none;
+    background-image: url(batik1.png);
+}
+
+/* Tombol kirim pesan */
+.kontak .row form .button {
+    display: inline-block;
+    
+    background-color: #a67c52;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Georgia', serif;
+}
+
+.kontak .row form .button:hover {
+    background-color: #8a6842;
+}
+
+footer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  @media (max-width: 1200px) {
+    .nav-menu ul {
+      gap: 30px;
+    }
+  
+    .text h1 {
+      font-size: 50px;
+    }
+  
+    .text p {
+      font-size: 18px;
+    }
+  
+    .card {
+      max-width: 45%; /* Membuat card lebih kecil dan berjejer */
+    }
+  
+    .cards-container {
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nav-menu ul {
+      gap: 20px;
+    }
+  
+    .text h1 {
+      font-size: 40px;
+    }
+  
+    .text p {
+      font-size: 16px;
+    }
+  
+    .card {
+      max-width: 100%; /* Membuat card lebar penuh di layar kecil */
+    }
+  
+    .cards-container {
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-menu ul {
+      flex-direction: column; /* Menu menjadi vertikal pada layar kecil */
+      gap: 10px;
+    }}
+  
