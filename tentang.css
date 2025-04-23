@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(batik.png);
+  color: #fff;
+}
+
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav-menu {
+  margin: 0 auto;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+  border-radius: 5px;
+  background-color: grey;
+  color: black;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+  font-family: Georgia;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+section.about-us {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 20px;
+  max-width: 1000px; /* Mengatur lebar maksimal */
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.about-us .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman';
+}
+
+.about-us h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.about-us .content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-us .content img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.about-us .text {
+  flex: 1;
+  min-width: 280px;
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* Responsif */
+@media only screen and (max-width: 768px) {
+  .about-us {
+    padding: 40px 20px;
+    width: 90%;
+  }
+
+  .about-us .content {
+    flex-direction: column;
+  }
+
+  .about-us .content img {
+    max-width: 90%;
+  }
+
+  .about-us .text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-us {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .about-us h2 {
+    font-size: 28px;
+  }
+
+  .about-us .text {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav-menu ul {
+    gap: 30px;
+  }
+
+  .text h1 {
+    font-size: 50px;
+  }
+
+  .text p {
+    font-size: 18px;
+  }
+
+  .card {
+    max-width: 45%; /* Membuat card lebih kecil dan berjejer */
+  }
+
+  .cards-container {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu ul {
+    gap: 20px;
+  }
+
+  .text h1 {
+    font-size: 40px;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .card {
+    max-width: 100%; /* Membuat card lebar penuh di layar kecil */
+  }
+
+  .cards-container {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-menu ul {
+    flex-direction: column; /* Menu menjadi vertikal pada layar kecil */
+    gap: 10px;
+  }}
