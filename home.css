@@ -59,7 +59,7 @@ header {
   color: black;
 }
 
-.main-wrapper {
+.main-pengenalan {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -79,7 +79,7 @@ header {
   pointer-events: none;
 }
 
-.cards-container {
+.seluruh-card {
   display: flex;
   flex-wrap: wrap; 
   gap: 20px; 
@@ -132,7 +132,7 @@ footer {
   padding-top: 15px;
 }
 
-/* Media Queries for responsiveness */
+
 @media (max-width: 1200px) {
   .nav-menu ul {
     gap: 30px;
@@ -147,10 +147,10 @@ footer {
   }
 
   .card {
-    max-width: 45%; /* Membuat card lebih kecil dan berjejer */
+    max-width: 45%; 
   }
 
-  .cards-container {
+  .seluruh-card {
     gap: 15px;
   }
 }
@@ -169,17 +169,17 @@ footer {
   }
 
   .card {
-    max-width: 100%; /* Membuat card lebar penuh di layar kecil */
+    max-width: 100%; 
   }
 
-  .cards-container {
+  .seluruh-card {
     gap: 10px;
   }
 }
 
 @media (max-width: 480px) {
   .nav-menu ul {
-    flex-direction: column; /* Menu menjadi vertikal pada layar kecil */
+    flex-direction: column; 
     gap: 10px;
   }
 
@@ -193,10 +193,10 @@ footer {
 
   .card {
     max-width: 100%;
-    height: 150px; /* Mengurangi tinggi card pada layar kecil */
+    height: 150px; 
   }
 
-  .cards-container {
+  .seluruh-card {
     gap: 5px;
   }
 }

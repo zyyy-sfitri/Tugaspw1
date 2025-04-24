@@ -70,7 +70,7 @@ section.about-us {
   background-color: #ffffff;
   color: black;
   border-radius: 20px;
-  max-width: 1000px; /* Mengatur lebar maksimal */
+  max-width: 1000px; 
   margin: 50px auto;
   display: flex;
   flex-direction: column;
@@ -126,7 +126,7 @@ footer {
   padding-top: 5px;
 }
 
-/* Responsif */
+
 @media only screen and (max-width: 768px) {
   .about-us {
     padding: 40px 20px;
@@ -179,7 +179,7 @@ footer {
   }
 
   .card {
-    max-width: 45%; /* Membuat card lebih kecil dan berjejer */
+    max-width: 45%; 
   }
 
   .cards-container {
@@ -201,7 +201,7 @@ footer {
   }
 
   .card {
-    max-width: 100%; /* Membuat card lebar penuh di layar kecil */
+    max-width: 100%; 
   }
 
   .cards-container {
@@ -211,6 +211,6 @@ footer {
 
 @media (max-width: 480px) {
   .nav-menu ul {
-    flex-direction: column; /* Menu menjadi vertikal pada layar kecil */
+    flex-direction: column; 
     gap: 10px;
   }}

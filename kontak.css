@@ -1,6 +1,5 @@
-/* Tambahan styling untuk nuansa klasik dan elegan */
 body {
-    font-family: 'Georgia', serif; /* Ganti font jadi lebih klasik */
+    font-family: 'Georgia', serif; 
     background-image: url(batik.png);
     color: #333;
 }
@@ -18,10 +17,8 @@ header {
 header{
   color: black;
 }
-/* Styling section kontak agar elegan */
 .kontak {
-    background-color: #fff8f0; /* Warna lembut, kesan hangat */
-    padding: 3rem 2rem;
+    background-color: #fff8f0; 
     border-radius: 10px;
     max-width: 800px;
     margin: 2rem auto;
@@ -119,8 +116,6 @@ header{
     color: black;
   }
   
-
-/* Textarea tetap nyaman diketik */
 .kontak .row form textarea.box {
     height: 100px;
     resize: none;
