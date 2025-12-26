@@ -24,10 +24,6 @@ Berisi file-file utama berikut:
 ###  **Beranda**
 <img src="https://raw.githubusercontent.com/zyyy-sfitri/Tugaspw1/main/bg.jpeg" width="400">
 
-### **Galeri**
-<img src="https://raw.githubusercontent.com/zyyy-sfitri/Tugaspw1/main/galeri/gry.png" width="200">
-<img src="https://raw.githubusercontent.com/zyyy-sfitri/Tugaspw1/main/galeri/gamelan.png" width="200">
-
 ---
 
 ## Cara Menjalankan
